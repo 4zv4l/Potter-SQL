@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Potter Stats - Home</title>
+</head>
+<body>
+    <section class="top-bar">
+        <h1>Potter Stats</h1>
+        <a href="/login">Login</a>
+    </section>
+
+    <h2 class="selection-text">Choose a movie</h2>
+
+    <section class="selection">
+        [% FOREACH n = [ 1..8 ] %]
+            <a href="index.html?search=[% n %]">[% n %]</a>
+        [% END %]
+    </section>
+
+    [% IF movie %]
+    <table>
+        <tr>
+            <th>N°</th>
+            <th>Name</th>
+            <th>Year</th>
+            <th>Director</th>
+        </tr>
+
+        <tr>
+            <td>[% movie.id %]</td>
+            <td>[% movie.name %]</td>
+            <td>[% movie.year %]</td>
+            <td>[% movie.director %]</td>
+        </tr>
+    </table>
+    [% END %]
+
+    </body>
+</html>

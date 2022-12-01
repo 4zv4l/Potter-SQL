@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Potter Stats - Login</title>
+</head>
+<body>
+    <section class="top-bar">
+        <h1>Login</h1>
+        <a href="index.html">Home</a>
+    </section>
+
+    <form class="login" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Login >">
+        [% IF error %]
+        <p id="error">[% error %]</p>
+        [% END %]
+    </form>
+    </body>
+</html>
