@@ -20,5 +20,5 @@ To build the image use
 Then  
 `podman run --rm --name ctf -p 8080:8080 localhost/potter_ctf:latest`
 
-> or the image I built [here](https://hub.docker.com/repository/docker/4zv4l/potter_ctf)
+> or the image I built [here](https://hub.docker.com/repository/docker/4zv4l/potter_ctf)  
 `podman pull 4zv4l/potter_ctf:latest`
