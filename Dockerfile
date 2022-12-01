@@ -12,9 +12,6 @@ COPY public /app/public
 COPY views /app/views
 
 # install dependencies
-RUN cpanm Dancer2
-RUN cpanm File::Slurp
-RUN cpanm Mojo::SQLite
-RUN cpanm Template::Toolkit
+RUN cpanm -n Dancer2 File::Slurp Mojo::SQLite Template::Toolkit
 
 CMD ["perl", "app.plx"]
