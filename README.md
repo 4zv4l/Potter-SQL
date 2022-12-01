@@ -1,6 +1,6 @@
 # Potter-SQL
 A CTF about Harry Potter and SQL Injection
-> Thanks to @Julienpeps for the idea and inspiration
+> Thanks to [Julienpeps](https://github.com/Julienpeps) for the idea and inspiration
 
 # How to Run
 `perl app.plx`  
