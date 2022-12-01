@@ -4,10 +4,7 @@ A CTF about Harry Potter and SQL Injection
 
 # How to Run
 - install the dependencies (this might take a while)  
-`cpan Dancer2`  
-`cpan File::Slurp`  
-`cpan Mojo::SQLite`  
-`cpan Template::Toolkit`  
+`cpan -T Dancer File::Slurp Mojo::SQLite Template::Toolkit`  
 - run the app
 `perl app.plx`  
 This will start the web server on port `8080`
