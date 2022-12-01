@@ -3,7 +3,7 @@ A CTF about Harry Potter and SQL Injection
 > Thanks to [Julienpeps](https://github.com/Julienpeps) for the idea and inspiration
 
 # How to Run
-- install the dependencies (this might take a while)
+- install the dependencies (this might take a while)  
 `cpan Dancer2`  
 `cpan File::Slurp`  
 `cpan Mojo::SQLite`  
